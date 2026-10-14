@@ -21,11 +21,11 @@ const DANH_SACH_CO = [
     loiChuc: "Kính chúc cô Lan luôn mạnh khỏe, hạnh phúc bên gia đình và tràn đầy nhiệt huyết trên hành trình giảng dạy. Chúc cô có một ngày 20/10 thật vui vẻ và ý nghĩa!"
   },
   {
-    ten: "[TÊN CÔ 2]",
+    ten: "Bình Minh bel",
     goiTat: ["[tên gọi tắt 2]"],
     theme: "theme-2",
     thiep: "images/co-2.jpg",
-    loiChuc: "[LỜI CHÚC CÔ 2]"
+    loiChuc: "Chúc Bình Minh bel mãi gay, vừa lùn vừa xấu"
   },
   {
     ten: "[TÊN CÔ 3]",
