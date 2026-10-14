@@ -68,6 +68,13 @@ const DANH_SACH_CO = [
     theme: "theme-7",
     thiep: "images/KE GAY PHAI CO LONG NGAI.png",
     loiChuc: "GOD QUANG GAY NUMBER ONE!"
+  },
+  {
+    ten: "Bình Minh bel",
+    goiTat: ["minh gay", "thằng vừa lùn vừa xấu"],
+    theme: "theme-7",
+    thiep: "images/binhminh2.jpg",
+    loiChuc: "Chúc Bình Minh bel mãi gay, vừa lùn vừa xấu"
   }
 ];
 
