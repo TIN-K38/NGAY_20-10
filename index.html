@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thiệp Chúc Mừng 20/10</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&family=Dancing+Script:wght@600&display=swap&subset=vietnamese" rel="stylesheet">
+
+  <!-- CSS của nhóm giao diện -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Nhạc nền (nếu link nhạc lỗi thì chỉ mất nhạc, trang vẫn chạy) -->
+  <audio id="bg-music" loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+  </audio>
+  <button id="btn-music" type="button" aria-label="Bật/tắt nhạc" hidden>🔊</button>
+
+  <!-- Màn hình 1: Nhập tên -->
+  <section id="form-screen">
+    <h1>Chúc mừng 20/10</h1>
+    <input id="ten-input" type="text" placeholder="Nhập tên của cô..." autocomplete="off">
+    <button id="mo-thiep" type="button">Mở thiệp</button>
+    <p id="thong-bao"></p>
+  </section>
+
+  <!-- Màn hình 2: Thiệp (mặc định ẩn) -->
+  <section id="card-screen" hidden>
+    <div class="petals" aria-hidden="true">
+      <span class="petal"></span>
+      <span class="petal"></span>
+      <span class="petal"></span>
+      <span class="petal"></span>
+    </div>
+    <div class="card">
+      <img class="hoa-tiet" src="" alt="Thiệp chúc mừng 20/10" hidden>
+      <h2 class="ten-co"></h2>
+      <p class="loi-chuc"></p>
+    </div>
+    <button id="lam-lai" type="button">Nhập tên khác</button>
+  </section>
+
+  <!-- Pháo hoa -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <!-- data.js phải đứng TRƯỚC script.js -->
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

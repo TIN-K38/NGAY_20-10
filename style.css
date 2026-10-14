@@ -1,0 +1,253 @@
+/* ==========================================================================
+   BUOC 2: CHOT MAU VA PHONG CHU (KHAI BAO CHUNG)
+   ========================================================================== */
+:root {
+  --mau-chinh: #e91e63;
+  --mau-nen: #fff0f5;
+  --mau-chu: #5a2a3a;
+  --mau-phu: #ffd1dc;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: var(--mau-chu);
+  background: var(--mau-nen);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, .ten-co {
+  font-family: "Dancing Script", cursive;
+}
+
+/* ==========================================================================
+   BUOC 3: MAN HINH NHAP TEN (#form-screen)
+   ========================================================================== */
+#form-screen {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+  text-align: center;
+  background: linear-gradient(160deg, var(--mau-nen), var(--mau-phu));
+}
+
+#form-screen h1 {
+  font-size: 2.6rem;
+  margin: 0;
+  color: var(--mau-chinh);
+}
+
+#ten-input {
+  width: min(90vw, 360px);
+  padding: 14px 18px;
+  font-size: 16px; /* Giu >= 16px de iPhone khong tu dong zoom screen */
+  border: 2px solid var(--mau-phu);
+  border-radius: 999px;
+  outline: none;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#ten-input:focus {
+  border-color: var(--mau-chinh);
+}
+
+#mo-thiep {
+  padding: 12px 32px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 999px;
+  background: var(--mau-chinh);
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+
+#mo-thiep:hover {
+  transform: scale(1.05);
+}
+
+#mo-thiep:active {
+  transform: scale(0.97);
+}
+
+#thong-bao {
+  color: #c0392b;
+  min-height: 1.2em;
+  margin: 0;
+}
+
+/* ==========================================================================
+   BUOC 4: KHUNG THIEP (#card-screen & .card)
+   ========================================================================== */
+#card-screen {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 24px;
+  background: linear-gradient(160deg, var(--mau-nen), var(--mau-phu));
+  box-sizing: border-box;
+}
+
+/* Dam bao thuoc tinh hidden hoat dong khi CSS dung display: flex */
+#card-screen[hidden],
+#form-screen[hidden] {
+  display: none !important;
+}
+
+.card {
+  width: min(90vw, 480px);
+  padding: 32px 28px;
+  background: #fff;
+  border: 3px solid var(--mau-chinh);
+  border-radius: 20px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+  text-align: center;
+  box-sizing: border-box;
+  
+  /* Khoi tao phan hieu ung mo thiep o Buoc 5 */
+  opacity: 0;
+  transform: scale(0.6) rotateX(60deg);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.hoa-tiet {
+  max-width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+}
+
+.ten-co {
+  font-size: 2.2rem;
+  color: var(--mau-chinh);
+  margin: 12px 0;
+  word-break: break-word;
+}
+
+.loi-chuc {
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+#lam-lai {
+  padding: 10px 24px;
+  border: 2px solid var(--mau-chinh);
+  background: transparent;
+  color: var(--mau-chinh);
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   BUOC 5: HIEU UNG MO THIEP & HOA ROI
+   ========================================================================== */
+/* Khi nhom Code them class open vao .card */
+.card.open {
+  opacity: 1;
+  transform: scale(1) rotateX(0);
+}
+
+/* Hieu ung hoa roi bằng CSS */
+.petal {
+  position: fixed;
+  top: -20px;
+  width: 14px;
+  height: 14px;
+  background: var(--mau-phu);
+  border-radius: 0 100% 0 100%;
+  pointer-events: none; /* Khong chan thao tac bam cua nguoi dung */
+  animation: roi 6s linear infinite;
+  z-index: 999;
+}
+
+.petal:nth-child(1) { left: 10%; animation-delay: 0s; }
+.petal:nth-child(2) { left: 30%; animation-delay: 1.5s; }
+.petal:nth-child(3) { left: 55%; animation-delay: 3s; }
+.petal:nth-child(4) { left: 80%; animation-delay: 4.5s; }
+
+@keyframes roi {
+  to {
+    transform: translateY(110vh) rotate(360deg);
+  }
+}
+
+/* ==========================================================================
+   BUOC 7: 7 THEME MAU CHO 7 CO
+   ========================================================================== */
+.theme-1 { --mau-chinh: #e91e63; --mau-phu: #ffd1dc; --mau-nen: #fff0f5; }
+.theme-2 { --mau-chinh: #c0392b; --mau-phu: #f5c6c0; --mau-nen: #fff5f0; }
+.theme-3 { --mau-chinh: #e67e22; --mau-phu: #fde3c8; --mau-nen: #fffaf0; }
+.theme-4 { --mau-chinh: #8e44ad; --mau-phu: #e6d0f0; --mau-nen: #faf5ff; }
+.theme-5 { --mau-chinh: #16a085; --mau-phu: #c8ece4; --mau-nen: #f2fffc; }
+.theme-6 { --mau-chinh: #2980b9; --mau-phu: #cfe4f5; --mau-nen: #f2f9ff; }
+.theme-7 { --mau-chinh: #d4a017; --mau-phu: #f7e7b0; --mau-nen: #fffdf0; }
+
+/* ==========================================================================
+   BUOC 6: RESPONSIVE CHO DIEN THOAI (LUON O CUOI FILE)
+   ========================================================================== */
+@media (max-width: 600px) {
+  #form-screen h1 {
+    font-size: 2rem;
+  }
+  
+  .card {
+    padding: 22px 18px;
+  }
+  
+  .ten-co {
+    font-size: 1.8rem;
+  }
+  
+  .loi-chuc {
+    font-size: 1rem;
+  }
+}
+/* ==========================================================================
+   BO SUNG (them de khop voi phan code): thiep dang anh, hoa roi, nut nhac
+   ========================================================================== */
+.hoa-tiet[hidden] { display: none; }
+
+/* Thiep la 1 tam anh hoan chinh do nhom thiep thiet ke */
+.card.full {
+  width: min(94vw, 760px);
+  padding: 8px;
+}
+.card.full .ten-co,
+.card.full .loi-chuc { display: none; }
+.card.full .hoa-tiet {
+  display: block;
+  width: 100%;
+  max-height: none;
+  height: auto;
+  border-radius: 14px;
+}
+
+.petals { display: contents; }
+
+/* Nut bat/tat nhac */
+#btn-music {
+  position: fixed;
+  top: 14px;
+  right: 14px;
+  z-index: 1000;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: var(--mau-chinh);
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+}
+#btn-music[hidden] { display: none; }
+
+#lam-lai:hover { background: var(--mau-phu); }
