@@ -61,6 +61,20 @@ const DANH_SACH_CO = [
     theme: "theme-7",
     thiep: "images/co-7.jpg",
     loiChuc: "[LỜI CHÚC CÔ 7]"
+  },
+  {
+    ten: "Bình Minh bel",
+        goiTat: ["[tên gọi tắt 7]"],
+    theme: "theme-7",
+    thiep: "images/co-7.jpg",
+    loiChuc: "Chúc Bình Minh bel mãi gay, vừa lùn vừa xấu"
+  }
+  {
+    ten: "Bài Đức Tuồi",
+    goiTat: ["[tên gọi tắt 7]"],
+    theme: "theme-7",
+    thiep: "images/co-7.jpg",
+    loiChuc: "Son🥀😭"
   }
 ];
 
