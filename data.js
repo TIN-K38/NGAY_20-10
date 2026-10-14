@@ -15,31 +15,31 @@
 const DANH_SACH_CO = [
   {
     ten: "Nguyễn Thị Lan",
-    goiTat: ["lan", "co lan"],
+    goiTat: ["lan", "co lan", "cô lan"],
     theme: "theme-1",
     thiep: "images/co-lan.jpg",
     loiChuc: "Kính chúc cô Lan luôn mạnh khỏe, hạnh phúc bên gia đình và tràn đầy nhiệt huyết trên hành trình giảng dạy. Chúc cô có một ngày 20/10 thật vui vẻ và ý nghĩa!"
   },
   {
-    ten: "Bình Minh bel",
-    goiTat: ["[tên gọi tắt 2]"],
+    ten: "Vũ Thị Bích Diệp",
+    goiTat: ["diệp", "diep", "co diep", "vu thi bich diep", "cô diệp"],
     theme: "theme-2",
-    thiep: "images/co-2.jpg",
-    loiChuc: "Chúc Bình Minh bel mãi gay, vừa lùn vừa xấu"
+    thiep: "images/co-diep.jpg",
+    loiChuc: "Kính chúc cô Diệp luôn mạnh khỏe, hạnh phúc bên gia đình và tràn đầy nhiệt huyết trên hành trình giảng dạy. Chúc cô có một ngày 20/10 thật vui vẻ và ý nghĩa!"
   },
   {
-    ten: "[TÊN CÔ 3]",
-    goiTat: ["[tên gọi tắt 3]"],
+    ten: "Dương Thị Bình",
+    goiTat: ["binh", "co binh", "cô Bình", "Cô Bình"],
     theme: "theme-3",
-    thiep: "images/co-3.jpg",
-    loiChuc: "[LỜI CHÚC CÔ 3]"
+    thiep: "images/co-binh.jpg",
+    loiChuc: "Kính chúc cô Bình luôn mạnh khỏe, hạnh phúc bên gia đình và tràn đầy nhiệt huyết với những con số trên hành trình giảng dạy. Chúc cô có một ngày 20/10 thật vui vẻ và ý nghĩa!"
   },
   {
-    ten: "[TÊN CÔ 4]",
-    goiTat: ["[tên gọi tắt 4]"],
+    ten: "Ngô Thị Thanh Huyền",
+    goiTat: ["huyen", "co huyen", "thanh huyen", "ngo huyen", "cô Huyền", "Thanh Huyền"],
     theme: "theme-4",
-    thiep: "images/co-4.jpg",
-    loiChuc: "[LỜI CHÚC CÔ 4]"
+    thiep: "images/co-huyen.jpg",
+    loiChuc: "Kính chúc cô Huyền luôn mạnh khỏe, hạnh phúc bên gia đình và tràn đầy nhiệt huyết trên hành trình giảng dạy. Chúc cô có một ngày 20/10 thật vui vẻ và ý nghĩa!"
   },
   {
     ten: "[TÊN CÔ 5]",
