@@ -14,67 +14,53 @@
 // =====================================================================
 const DANH_SACH_CO = [
   {
-    ten: "Nguyễn Thị Lan",
-    goiTat: ["lan", "co lan", "cô lan"],
+    ten: "Nguyễn Thị Tình",
+    goiTat: ["tinh", "co tinh"],
     theme: "theme-1",
-    thiep: "images/co-lan.jpg",
-    loiChuc: "Kính chúc cô Lan luôn mạnh khỏe, hạnh phúc bên gia đình và tràn đầy nhiệt huyết trên hành trình giảng dạy. Chúc cô có một ngày 20/10 thật vui vẻ và ý nghĩa!"
+    thiep: "images/co-tinh.jpg",
+    loiChuc: "Nhân ngày 20/10, chúng em kính chúc cô Tình luôn mạnh khỏe, vui vẻ và hạnh phúc! Cảm ơn cô vì những tiết học Hoạt động trải nghiệm đầy ắp tiếng cười và những trò chơi thú vị giúp lớp chúng em gắn kết với nhau hơn. Chúc cô luôn tràn đầy năng lượng để tiếp tục đồng hành cùng chúng em!"
   },
   {
     ten: "Vũ Thị Bích Diệp",
     goiTat: ["diệp", "diep", "co diep", "vu thi bich diep", "cô diệp"],
     theme: "theme-2",
     thiep: "images/co-diep.jpg",
-    loiChuc: "Kính chúc cô Diệp luôn mạnh khỏe, hạnh phúc bên gia đình và tràn đầy nhiệt huyết trên hành trình giảng dạy. Chúc cô có một ngày 20/10 thật vui vẻ và ý nghĩa!"
+    loiChuc: "Kính chúc cô Diệp kính yêu có một ngày 20/10 thật trọn vẹn và ý nghĩa! Cảm ơn cô đã không chỉ truyền cho chúng em những kiến thức Tin học bổ ích, mà còn luôn bao dung, lo lắng và bảo bọc chúng em với tư cách là một cô giáo chủ nhiệm. Chúng em chúc cô luôn giữ mãi nụ cười rạng rỡ và ngọn lửa nhiệt huyết trên bục giảng!"
   },
   {
     ten: "Dương Thị Bình",
     goiTat: ["binh", "co binh", "cô Bình", "Cô Bình"],
     theme: "theme-3",
     thiep: "images/co-binh.jpg",
-    loiChuc: "Kính chúc cô Bình luôn mạnh khỏe, hạnh phúc bên gia đình và tràn đầy nhiệt huyết với những con số trên hành trình giảng dạy. Chúc cô có một ngày 20/10 thật vui vẻ và ý nghĩa!"
+    loiChuc: "Kính chúc cô Bình kính yêu một ngày 20/10 thật nhiều hoa và những lời chúc tốt đẹp! Cảm ơn cô đã luôn kiên nhẫn dẫn dắt chúng em đi qua những bài toán khó của môn học và cả những 'bài toán' của cuộc sống. Chúc cô luôn mạnh khỏe, hạnh phúc và giữ mãi ngọn lửa nhiệt huyết trên bục giảng!"
   },
   {
     ten: "Ngô Thị Thanh Huyền",
     goiTat: ["huyen", "co huyen", "thanh huyen", "ngo huyen", "cô Huyền", "Thanh Huyền"],
     theme: "theme-4",
     thiep: "images/co-huyen.jpg",
-    loiChuc: "Kính chúc cô Huyền luôn mạnh khỏe, hạnh phúc bên gia đình và tràn đầy nhiệt huyết trên hành trình giảng dạy. Chúc cô có một ngày 20/10 thật vui vẻ và ý nghĩa!"
+    loiChuc: "Kính chúc cô Huyền có một ngày 20/10 ngập tràn niềm vui và hoa! Cảm ơn cô đã luôn là 'chất xúc tác' tuyệt vời, biến những tiết học Hóa khô khan thành những bài học đầy thú vị và sắc màu. Chúc cô luôn mạnh khỏe, giữ vững ngọn lửa đam mê và gặt hái được nhiều thành công trên bục giảng!"
   },
   {
-    ten: "[TÊN CÔ 5]",
-    goiTat: ["[tên gọi tắt 5]"],
+    ten: "Nguyễn Thi Hồng Nhung",
+    goiTat: ["nhung", "co nhung", "cô nhung"],
     theme: "theme-5",
-    thiep: "images/co-5.jpg",
-    loiChuc: "[LỜI CHÚC CÔ 5]"
+    thiep: "images/co-nhung.jpg",
+    loiChuc: "Kính chúc cô Nhung kính yêu luôn mạnh khỏe, hạnh phúc và luôn giữ mãi ngọn lửa đam mê với văn học. Cảm ơn cô đã mang những lời hay ý đẹp, những bài học làm người sâu sắc vào bài giảng, chắp cánh cho tâm hồn chúng em thêm bay bổng. Chúc cô có một ngày 20/10 thật trọn vẹn và ý nghĩa!"
   },
   {
-    ten: "[TÊN CÔ 6]",
-    goiTat: ["[tên gọi tắt 6]"],
+    ten: "Đinh Thị Thu Hường",
+    goiTat: ["co thu huong", "thu huong", "],
     theme: "theme-6",
-    thiep: "images/co-6.jpg",
-    loiChuc: "[LỜI CHÚC CÔ 6]"
+    thiep: "images/co-Dhuong.jpg",
+    loiChuc: "Dear Ms. Huong, on Vietnamese Women's Day, we want to express our deepest gratitude to you. Thank you for making every English lesson so inspiring and for being such a wonderful teacher. Wishing you a happy October 20th filled with love, laughter, and beautiful flowers!"
   },
   {
-    ten: "[TÊN CÔ 7]",
-    goiTat: ["[tên gọi tắt 7]"],
+    ten: "Trần Thị Hường",
+    goiTat: ["co thi huong", "thi huong"],
     theme: "theme-7",
-    thiep: "images/co-7.jpg",
-    loiChuc: "[LỜI CHÚC CÔ 7]"
-  },
-  {
-    ten: "Bình Minh bel",
-        goiTat: ["[tên gọi tắt 7]"],
-    theme: "theme-7",
-    thiep: "images/co-7.jpg",
-    loiChuc: "Chúc Bình Minh bel mãi gay, vừa lùn vừa xấu"
-  }
-  {
-    ten: "Bài Đức Tuồi",
-    goiTat: ["[tên gọi tắt 7]"],
-    theme: "theme-7",
-    thiep: "images/co-7.jpg",
-    loiChuc: "Son🥀😭"
+    thiep: "images/co-Thuong.jpg",
+    loiChuc: "Kính chúc cô Hường có một ngày Phụ nữ Việt Nam 20/10 thật ý nghĩa! Cảm ơn cô đã mang đến cho chúng em những bài học QPAN đầy bổ ích, rèn luyện cho chúng em tác phong kỷ luật, nghiêm túc và lòng yêu nước. Chúc cô giáo - người 'chiến sĩ' trên bục giảng của chúng em luôn mạnh khỏe, hạnh phúc và luôn giữ mãi ngọn lửa nhiệt huyết!"
   }
 ];
 
