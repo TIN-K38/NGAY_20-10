@@ -42,7 +42,7 @@ const DANH_SACH_CO = [
     loiChuc: "Kính chúc cô Huyền có một ngày 20/10 ngập tràn niềm vui và hoa! Cảm ơn cô đã luôn là 'chất xúc tác' tuyệt vời, biến những tiết học Hóa khô khan thành những bài học đầy thú vị và sắc màu. Chúc cô luôn mạnh khỏe, giữ vững ngọn lửa đam mê và gặt hái được nhiều thành công trên bục giảng!"
   },
   {
-    ten: "Nguyễn Thi Hồng Nhung",
+    ten: "Nguyễn Thị Hồng Nhung",
     goiTat: ["nhung", "co nhung", "cô nhung"],
     theme: "theme-5",
     thiep: "images/co-nhung.jpg",
@@ -50,7 +50,7 @@ const DANH_SACH_CO = [
   },
   {
     ten: "Đinh Thị Thu Hường",
-    goiTat: ["co thu huong", "thu huong", "],
+    goiTat: ["co thu huong", "thu huong"],
     theme: "theme-6",
     thiep: "images/co-Dhuong.jpg",
     loiChuc: "Dear Ms. Huong, on Vietnamese Women's Day, we want to express our deepest gratitude to you. Thank you for making every English lesson so inspiring and for being such a wonderful teacher. Wishing you a happy October 20th filled with love, laughter, and beautiful flowers!"
