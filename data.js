@@ -61,6 +61,13 @@ const DANH_SACH_CO = [
     theme: "theme-7",
     thiep: "images/CoHuongQPAN.jfif",
     loiChuc: "Kính chúc cô Hường có một ngày Phụ nữ Việt Nam 20/10 thật ý nghĩa! Cảm ơn cô đã mang đến cho chúng em những bài học QPAN đầy bổ ích, rèn luyện cho chúng em tác phong kỷ luật, nghiêm túc và lòng yêu nước. Chúc cô giáo - người 'chiến sĩ' trên bục giảng của chúng em luôn mạnh khỏe, hạnh phúc và luôn giữ mãi ngọn lửa nhiệt huyết!"
+  },
+  {
+    ten: "Bình Minh bel",
+    goiTat: [],
+    theme: "theme-7",
+    thiep: "images/binhminh.jpg",
+    loiChuc: "Chúc Bình Minh bel mãi gay, vừa lùn vừa xấu"
   }
 ];
 
