@@ -52,7 +52,7 @@ const DANH_SACH_CO = [
     ten: "Đinh Thị Thu Hường",
     goiTat: ["co thu huong", "thu huong"],
     theme: "theme-6",
-    thiep: "images/CoHuongTA.jpg",
+    thiep: "images/CoHuongTA.png",
     loiChuc: "Dear Ms. Huong, on Vietnamese Women's Day, we want to express our deepest gratitude to you. Thank you for making every English lesson so inspiring and for being such a wonderful teacher. Wishing you a happy October 20th filled with love, laughter, and beautiful flowers!"
   },
   {
@@ -63,22 +63,15 @@ const DANH_SACH_CO = [
     loiChuc: "Kính chúc cô Hường có một ngày Phụ nữ Việt Nam 20/10 thật ý nghĩa! Cảm ơn cô đã mang đến cho chúng em những bài học QPAN đầy bổ ích, rèn luyện cho chúng em tác phong kỷ luật, nghiêm túc và lòng yêu nước. Chúc cô giáo - người 'chiến sĩ' trên bục giảng của chúng em luôn mạnh khỏe, hạnh phúc và luôn giữ mãi ngọn lửa nhiệt huyết!"
   },
   {
-    ten: "bài đức tuồi",
-    goiTat: ["tiền chó đai", "bài tuồi"],
-    theme: "theme-7",
-    thiep: "images/baiductuoi.png",
-    loiChuc: "GOD MEME"
-  },
-  {
     ten: "Hứa Thị Thùy Dương",
-    goitat: ["duong"],
+    goiTat: ["duong"],
     theme: "theme-1",
     thiep: "images/HuaThiThuyDuong.jfif",
     loichuc: "Con chúc mẹ mãi trẻ, tươi cười như tuổi 18 !"
   },
   {
     ten: "Nguyễn Anh Minh 01/10",
-    goitat: ["anh minh 0110", "anh minh beo", "minh beo"],
+    goiTat: ["anh minh 0110", "anh minh beo", "minh beo"],
     theme: "theme-1",
     thiep: "images/NguyenAnhMinh0110.jpg",
     loichuc: "Con chúc mẹ mãi trẻ, tươi cười như tuổi 18 !"
