@@ -1,1 +1,0 @@
-Bo anh thiep cua nhom thiep vao thu muc nay (co-lan.jpg, co-2.jpg ...). Ten file viet thuong, khong dau, khop voi data.js
