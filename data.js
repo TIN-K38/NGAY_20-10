@@ -68,6 +68,13 @@ const DANH_SACH_CO = [
     theme: "theme-1",
     thiep: "images/HuaThiThuyDuong.jfif",
     loichuc: "Con chúc mẹ mãi trẻ, tươi cười như tuổi 18 !"
+  },
+  {
+    ten: "Nguyễn Anh Minh 01/10",
+    goitat: ["anh minh 0110", "anh minh beo", "minh beo"],
+    theme: "theme-1",
+    thiep: "images/NguyenAnhMinh0110.jpg",
+    loichuc: "Con chúc mẹ mãi trẻ, tươi cười như tuổi 18 !"
   }
 ];
 
