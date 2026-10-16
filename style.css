@@ -12,15 +12,29 @@
 body {
   font-family: "Be Vietnam Pro", sans-serif;
   color: var(--mau-chu);
-  background: url('images/background.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  position: relative;
+  min-height: 100dvh;
+}
+
+/* Lớp giả tạo hiệu ứng nền dịu mắt và tăng độ nét */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('images/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(2px);
+  transform: scale(1.03);
+  z-index: -1;
 }
 
 h1, .ten-co {
@@ -37,9 +51,10 @@ h1, .ten-co {
   justify-content: center;
   align-items: center;
   gap: 18px;
-  padding: 24px;
+  padding: 24px 16px;
   text-align: center;
   background: rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
 }
 
 .decor-flowers {
@@ -72,6 +87,8 @@ h1, .ten-co {
   padding: 6px 18px;
   border-radius: 20px;
   display: inline-block;
+  max-width: 90%;
+  box-sizing: border-box;
 }
 
 .input-box {
@@ -82,10 +99,11 @@ h1, .ten-co {
   width: 100%;
 }
 
+/* Ô NHẬP TÊN TỐI ƯU CÂN ĐỐI TRÊN MỌI MÀN HÌNH */
 #ten-input {
-  width: min(90vw, 380px);
-  padding: 16px 22px;
-  font-size: 17px;
+  width: min(82vw, 360px);
+  padding: 15px 20px;
+  font-size: 16px;
   border: 2px solid #ff80ab;
   border-radius: 50px;
   outline: none;
@@ -93,6 +111,7 @@ h1, .ten-co {
   background: #fff;
   box-shadow: 0 8px 20px rgba(233, 30, 99, 0.15);
   transition: all 0.3s ease;
+  box-sizing: border-box;
 }
 
 #ten-input:focus {
@@ -142,7 +161,7 @@ h1, .ten-co {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 24px;
+  padding: 24px 16px;
   background: rgba(255, 255, 255, 0.2);
   box-sizing: border-box;
 }
@@ -153,8 +172,8 @@ h1, .ten-co {
 }
 
 .card {
-  width: min(90vw, 500px);
-  padding: 36px 30px;
+  width: min(88vw, 500px);
+  padding: 36px 24px;
   background: rgba(255, 255, 255, 0.95);
   border: 3px solid var(--mau-chinh);
   border-radius: 24px;
@@ -282,19 +301,48 @@ h1, .ten-co {
 .theme-7 { --mau-chinh: #b7950b; --mau-phu: #f7e7b0; }
 
 /* ==========================================================================
-   6. RESPONSIVE MOBILE
+   6. RESPONSIVE DÀNH RIÊNG CHO ĐIỆN THOẠI (MOBILE < 600px)
    ========================================================================== */
 @media (max-width: 600px) {
   #form-screen h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   
   .sub-title {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
+  
+  /* Căn chỉnh ô nhập tên cách đều 2 mép màn hình, không bị tràn viền */
+  #ten-input {
+    width: calc(100% - 32px);
+    max-width: 320px;
+    padding: 13px 18px;
+    font-size: 15px;
+  }
+
+  #mo-thiep {
+    padding: 12px 30px;
+    font-size: 1rem;
+  }
+
+  /* Ẩn bớt 1/2 số trái tim trên điện thoại để đỡ bị rối mắt */
+  .heart:nth-child(2),
+  .heart:nth-child(4),
+  .heart:nth-child(7),
+  .heart:nth-child(9),
+  .heart:nth-child(11) {
+    display: none !important;
+  }
+
+  /* Giảm size trái tim trên mobile cho thưa và thoáng hơn */
+  .heart {
+    font-size: 1.1rem;
   }
   
   .card {
-    padding: 24px 20px;
+    padding: 24px 18px;
+    width: calc(100% - 32px);
   }
   
   .ten-co {
@@ -302,7 +350,7 @@ h1, .ten-co {
   }
   
   .loi-chuc {
-    font-size: 1rem;
+    font-size: 0.98rem;
   }
 }
 
@@ -327,13 +375,13 @@ h1, .ten-co {
   top: 16px;
   right: 16px;
   z-index: 1000;
-  width: 46px;
-  height: 46px;
+  width: 42px;
+  height: 42px;
   border: none;
   border-radius: 50%;
   background: #e91e63;
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   cursor: pointer;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
   transition: transform 0.2s;
