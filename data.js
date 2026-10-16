@@ -103,6 +103,20 @@ const DANH_SACH_CO = [
     theme: "theme-1",
     thiep: "images/Kiet.jfif",
     loiChuc: ""
+  },
+  {
+    ten: "Lê Mai Trang",
+    goiTat: ["hieu1"],
+    theme: "theme-1",
+    thiep: "images/hieu1.jfif",
+    loiChuc: ""
+  },
+  {
+    ten: "Lý Hoài Chi",
+    goiTat: ["hieu2"],
+    theme: "theme-1",
+    thiep: "images/hieu2.jfif",
+    loiChuc: ""
   }
 ]
 
