@@ -64,7 +64,7 @@ const DANH_SACH_CO = [
   },
   {
     ten: "Hứa Thị Thùy Dương",
-    goiTat: ["duong",]
+    goiTat: ["duong"],
     theme: "theme-1",
     thiep: "images/HuaThiThuyDuong.jfif",
     loiChuc: "Con chúc mẹ mãi trẻ, tươi cười như tuổi 18 !" // Đã sửa từ loichuc thành loiChuc
