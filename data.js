@@ -38,7 +38,7 @@ const DANH_SACH_CO = [
     ten: "Ngô Thị Thanh Huyền",
     goiTat: ["huyen", "co huyen", "thanh huyen", "ngo huyen", "cô huyền", "ngo thi thanh huyen"],
     theme: "theme-4",
-    thiep: "images/CoHuyen.jpg",
+    thiep: "images/coHuyen.jfif",
     loiChuc: "Kính chúc cô Huyền có một ngày 20/10 ngập tràn niềm vui và hoa! Cảm ơn cô đã luôn là 'chất xúc tác' tuyệt vời, biến những tiết học Hóa khô khan thành những bài học đầy thú vị và sắc màu. Chúc cô luôn mạnh khỏe, giữ vững ngọn lửa đam mê và gặt hái được nhiều thành công trên bục giảng!"
   },
   {
@@ -73,7 +73,7 @@ const DANH_SACH_CO = [
     ten: "Nguyễn Anh Minh 01/10",
     goiTat: ["anh minh 0110"],
     theme: "theme-1",
-    thiep: "images/NguyenAnhMinh0110.jpg",
+    thiep: "images/NguyenAnhMinh0110.png",
     loiChuc: "Con chúc mẹ mãi trẻ, tươi cười như tuổi 18 !" // Đã sửa từ loichuc thành loiChuc
   },
   {
@@ -96,8 +96,15 @@ const DANH_SACH_CO = [
     theme: "theme-1",
     thiep: "images/binhminh2.png",
     loiChuc: "" // Đã sửa từ loichuc thành loiChuc
+  },
+  {
+    ten: "Vương Anh Kiệt",
+    goiTat: ["kiet", "vuong kiet"],
+    theme: "theme-1",
+    thiep: "images/Kiet.jfif",
+    loiChuc: ""
   }
-];
+]
 
 // Thiệp chung cho tên không có trong danh sách
 const LOI_CHUC_CHUNG = "Nhân ngày 20/10, chúng em xin kính chúc cô luôn mạnh khỏe, hạnh phúc và tràn đầy niềm vui. Cảm ơn cô đã luôn tận tâm dìu dắt chúng em!";
