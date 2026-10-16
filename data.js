@@ -77,6 +77,13 @@ const DANH_SACH_CO = [
     loiChuc: "Con chúc mẹ mãi trẻ, tươi cười như tuổi 18 !" // Đã sửa từ loichuc thành loiChuc
   },
   {
+    ten: "QUANG gaY",
+    goiTat: ["quanggay"],
+    theme: "theme-1",
+    thiep: "images/KE GAY PHAI CO LONG NGAI.png",
+    loiChuc: "gay" // Đã sửa từ loichuc thành loiChuc
+  },
+  {
     ten: "Bài Đức Tuồi",
     goiTat: ["Tiền Chó Đai", "Bài Tuồi"],
     theme: "theme-1",
