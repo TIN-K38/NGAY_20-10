@@ -15,7 +15,23 @@
 </head>
 <body>
 
-  <!-- Nhạc nền (nếu link nhạc lỗi thì chỉ mất nhạc, trang vẫn chạy) -->
+  <!-- Cơn mưa trái tim rơi (Hiệu ứng nền toàn trang) -->
+  <div class="hearts-rain" aria-hidden="true">
+    <span class="heart">💖</span>
+    <span class="heart">❤️</span>
+    <span class="heart">💕</span>
+    <span class="heart">💗</span>
+    <span class="heart">💓</span>
+    <span class="heart">🌸</span>
+    <span class="heart">💖</span>
+    <span class="heart">❤️</span>
+    <span class="heart">💕</span>
+    <span class="heart">💗</span>
+    <span class="heart">💓</span>
+    <span class="heart">💖</span>
+  </div>
+
+  <!-- Nhạc nền -->
   <audio id="bg-music" loop>
     <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
   </audio>
@@ -23,20 +39,18 @@
 
   <!-- Màn hình 1: Nhập tên -->
   <section id="form-screen">
+    <div class="decor-flowers" aria-hidden="true">🌸 🌹 🌺</div>
     <h1>Chúc mừng 20/10</h1>
-    <input id="ten-input" type="text" placeholder="Nhập tên ..." autocomplete="off">
-    <button id="mo-thiep" type="button">Mở thiệp</button>
+    <p class="sub-title">Gửi trọn yêu thương & lời chúc tri ân</p>
+    <div class="input-box">
+      <input id="ten-input" type="text" placeholder="Nhập tên Cô giáo hoặc Phụ huynh..." autocomplete="off">
+      <button id="mo-thiep" type="button">✨ Mở thiệp ngay ✨</button>
+    </div>
     <p id="thong-bao"></p>
   </section>
 
   <!-- Màn hình 2: Thiệp (mặc định ẩn) -->
   <section id="card-screen" hidden>
-    <div class="petals" aria-hidden="true">
-      <span class="petal"></span>
-      <span class="petal"></span>
-      <span class="petal"></span>
-      <span class="petal"></span>
-    </div>
     <div class="card">
       <img class="hoa-tiet" src="" alt="Thiệp chúc mừng 20/10" hidden>
       <h2 class="ten-co"></h2>
