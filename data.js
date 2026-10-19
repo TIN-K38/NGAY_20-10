@@ -105,6 +105,13 @@ const DANH_SACH_CO = [
     loiChuc: ""
   },
   {
+    ten: "Dương Bình Minh",
+    goiTat: ["Bình Minh", "dương bình minh"],
+    theme: "theme-1",
+    thiep: "images/Dương Bình Minh.jpg",
+    loiChuc: "hehe"
+  },
+  {
     ten: "Lê Mai Trang",
     goiTat: ["hieu1"],
     theme: "theme-1",
