@@ -59,7 +59,7 @@ const DANH_SACH_CO = [
     ten: "Trần Thị Hường",
     goiTat: ["co thi huong", "thi huong", "cô thi hường", "huong qpan", "hường qpan", "tran thi huong"],
     theme: "theme-7",
-    thiep: "images/mu.jfif",
+    thiep: "images/mu.png",
     loiChuc: "Kính chúc cô Hường có một ngày Phụ nữ Việt Nam 20/10 thật ý nghĩa! Cảm ơn cô đã mang đến cho chúng em những bài học QPAN đầy bổ ích, rèn luyện cho chúng em tác phong kỷ luật, nghiêm túc và lòng yêu nước. Chúc cô giáo - người 'chiến sĩ' trên bục giảng của chúng em luôn mạnh khỏe, hạnh phúc và luôn giữ mãi ngọn lửa nhiệt huyết!"
   },
   {
@@ -123,6 +123,13 @@ const DANH_SACH_CO = [
     goiTat: ["hieu2"],
     theme: "theme-1",
     thiep: "images/hieu2.jfif",
+    loiChuc: ""
+  },
+  {
+    ten: "Đỗ Nhật Minh",
+    goiTat: ["dnm"],
+    theme: "theme-1",
+    thiep: "images/donhatminh.jfif",
     loiChuc: ""
   }
 ]
