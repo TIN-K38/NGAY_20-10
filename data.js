@@ -28,6 +28,13 @@ const DANH_SACH_CO = [
     loiChuc: "Kính chúc cô Diệp kính yêu có một ngày 20/10 thật trọn vẹn và ý nghĩa! Cảm ơn cô đã không chỉ truyền cho chúng em những kiến thức Tin học bổ ích, mà còn luôn bao dung, lo lắng và bảo bọc chúng em với tư cách là một cô giáo chủ nhiệm. Chúng em chúc cô luôn giữ mãi nụ cười rạng rỡ và ngọn lửa nhiệt huyết trên bục giảng!"
   },
   {
+    ten: "Lê Duy Trường",
+    goiTat: ["Trường", "truong", "yuris", "lớp trưởng", "lop", "lốp trưởng", "Đỗ Thảo Linh", "ĐTL", "LDT", "Cindy", "kemmnho", "do thao linh"],
+    theme: "theme-2",
+    thiep: "images/Lê Duy Trường.png",
+    loiChuc: "Kính chúc cô Diệp kính yêu có một ngày 20/10 thật trọn vẹn và ý nghĩa! Cảm ơn cô đã không chỉ truyền cho chúng em những kiến thức Tin học bổ ích, mà còn luôn bao dung, lo lắng và bảo bọc chúng em với tư cách là một cô giáo chủ nhiệm. Chúng em chúc cô luôn giữ mãi nụ cười rạng rỡ và ngọn lửa nhiệt huyết trên bục giảng!"
+  },
+  {
     ten: "Dương Thị Bình",
     goiTat: ["binh", "co binh", "cô bình", "duong thi binh"],
     theme: "theme-3",
