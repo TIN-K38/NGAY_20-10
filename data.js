@@ -138,6 +138,41 @@ const DANH_SACH_CO = [
     theme: "theme-1",
     thiep: "images/haminhquang.png",
     loiChuc: ""
+  },
+  {
+    ten: "Giá Minh Hiếu",
+    goiTat: ["Hiếu", "hieu"],
+    theme: "theme-1",
+    thiep: "images/hieu.jfif",
+    loiChuc: ""
+  },
+  {
+    ten: "Lường Minh Phú",
+    goiTat: ["Phú", "phu"],
+    theme: "theme-1",
+    thiep: "images/phu.png",
+    loiChuc: ""
+  },
+  {
+    ten: "ĐỖ THU GIANG",
+    goiTat: ["Giang"],
+    theme: "theme-1",
+    thiep: "images/giang.jfif",
+    loiChuc: ""
+  },
+  {
+    ten: "Nguyễn Bá Lâm",
+    goiTat: ["Bá Lâm", "stdwlamo"],
+    theme: "theme-1",
+    thiep: "images/bakhi.jfif",
+    loiChuc: ""
+  },
+  {
+    ten: "HỨA THỊ THÙY DƯƠNG",
+    goiTat: ["dương", "duong"],
+    theme: "theme-1",
+    thiep: "images/duong.jfif",
+    loiChuc: ""
   }
 ]
 
