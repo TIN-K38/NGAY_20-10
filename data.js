@@ -131,6 +131,13 @@ const DANH_SACH_CO = [
     theme: "theme-1",
     thiep: "images/donhatminh.jfif",
     loiChuc: ""
+  },
+  {
+    ten: "Hà Minh Quang",
+    goiTat: ["quang"],
+    theme: "theme-1",
+    thiep: "images/haminhquang.png",
+    loiChuc: ""
   }
 ]
 
