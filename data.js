@@ -29,10 +29,10 @@ const DANH_SACH_CO = [
   },
   {
     ten: "Hồn",
-    goiTat: ["Trường", "truong", "yuris", "lớp trưởng", "lop", "lốp trưởng", "Đỗ Thảo Linh", "ĐTL", "LDT", "Cindy", "kemmnho", "do thao linh"],
+    goiTat: ["lớp trưởng", "lop", "lốp trưởng"],
     theme: "theme-2",
     thiep: "images/Lê Duy Trường.png",
-    loiChuc: "iu cậu"
+    loiChuc: ""
   },
   {
     ten: "Dương Thị Bình",
