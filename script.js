@@ -37,7 +37,7 @@ function hienThiep(co, tenNhap) {
   cardScreen.className = (co && co.theme) || 'theme-1';
 
   // Dùng textContent (không dùng innerHTML) để ký tự lạ không làm hỏng trang
-  tenEl.textContent = co ? 'Cô ' + co.ten : tenNhap;
+  tenEl.textContent = co ? co.ten : tenNhap;
   loiEl.textContent = co ? co.loiChuc : LOI_CHUC_CHUNG;
 
   // Ảnh: nếu tải được thì hiện, lỗi thì tự quay về thiệp chữ
