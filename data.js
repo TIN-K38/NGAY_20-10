@@ -327,6 +327,13 @@ const DANH_SACH_CO = [
   	theme: "theme-1",
   	thiep: "images/mactrong.jpg",
   	loiChuc: ""
+  },
+  {
+  	ten: "Tung Tung Tung Sahur",
+  	goiTat: ["TTT"],
+  	theme: "theme-4",
+  	thiep: "images/tripplet.jpg",
+  	loiChuc: ""
   }
 ]
 
