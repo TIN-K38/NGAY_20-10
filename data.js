@@ -70,13 +70,6 @@ const DANH_SACH_CO = [
     loiChuc: "Kính chúc cô Hường có một ngày Phụ nữ Việt Nam 20/10 thật ý nghĩa! Cảm ơn cô đã mang đến cho chúng em những bài học QPAN đầy bổ ích, rèn luyện cho chúng em tác phong kỷ luật, nghiêm túc và lòng yêu nước. Chúc cô giáo - người 'chiến sĩ' trên bục giảng của chúng em luôn mạnh khỏe, hạnh phúc và luôn giữ mãi ngọn lửa nhiệt huyết!"
   },
   {
-    ten: "Hứa Thị Thùy Dương",
-    goiTat: ["duong"],
-    theme: "theme-1",
-    thiep: "images/HuaThiThuyDuong.jfif",
-    loiChuc: "Con chúc mẹ mãi trẻ, tươi cười như tuổi 18 !" // Đã sửa từ loichuc thành loiChuc
-  },
-  {
     ten: "Nguyễn Anh Minh 01/10",
     goiTat: ["anh minh 0110"],
     theme: "theme-1",
@@ -170,6 +163,13 @@ const DANH_SACH_CO = [
   {
     ten: "Nguyễn Bá Lâm",
     goiTat: ["Bá Lâm", "stdwlamo"],
+    theme: "theme-1",
+    thiep: "images/bakhi.jfif",
+    loiChuc: ""
+  },
+  {
+    ten: "Trương Đức Lâm",
+    goiTat: ["đức lâm", "thằng bệnh cầm khóa tủ điện thoại"],
     theme: "theme-1",
     thiep: "images/bakhi.jfif",
     loiChuc: ""
