@@ -171,21 +171,7 @@ const DANH_SACH_CO = [
     ten: "Trương Đức Lâm",
     goiTat: ["đức lâm", "thằng bệnh cầm khóa tủ điện thoại"],
     theme: "theme-1",
-    thiep: "images/DUCLAM.jfif",
-    loiChuc: ""
-  },
-  {
-    ten: "Trần Đức Minh",
-    goiTat: ["trần đức minh", "đm"],
-    theme: "theme-1",
-    thiep: "images/TRẦN ĐỨC MINH.jpg",
-    loiChuc: ""
-  },
-  {
-    ten: "Mế Hiền",
-    goiTat: ["Mế", "Hiền"],
-    theme: "theme-1",
-    thiep: "images/Mế Hiền.jpg",
+    thiep: "images/bakhi.jfif",
     loiChuc: ""
   },
   {
@@ -194,6 +180,41 @@ const DANH_SACH_CO = [
     theme: "theme-1",
     thiep: "images/duong.jfif",
     loiChuc: ""
+  },
+  {
+  	ten: "Nguyễn Lê Bảo Khánh",
+  	goiTat: ["bao khanh"],
+  	theme: "theme-1",
+  	thiep: "images/baokhanh.jpg",
+  	loiChuc: ""
+  },
+  {
+  	ten: "Tống Kim Gia Bảo",
+  	goiTat: ["bao"],
+  	theme: "theme-1",
+  	thiep: "images/tongbao.jpg",
+  	loiChuc: ""
+  },
+  {
+  	ten: "Nguyễn Đức Hoàng",
+  	goiTat: ["hoang"],
+  	theme: "theme-1",
+  	thiep: "images/duchoang.jpg",
+  	loiChuc: ""
+  },
+  {
+  	ten: "Nguyễn Đức Minh",
+  	goiTat: ["ndm"],
+  	theme: "theme-1",
+  	thiep: "images/nguyenducminh.jpg",
+  	loiChuc: ""
+  },
+  {
+  	ten: "Tạ Hải Bảo Lâm",
+  	goiTat: ["bao lam"],
+  	theme: "theme-1",
+  	thiep: "images/baolam.jpg",
+  	loiChuc: ""
   }
 ]
 
