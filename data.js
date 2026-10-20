@@ -210,6 +210,20 @@ const DANH_SACH_CO = [
   	loiChuc: ""
   },
   {
+  	ten: "Trần Đức Minh",
+  	goiTat: ["trần đức minh"],
+  	theme: "theme-1",
+  	thiep: "images/TRẦN ĐỨC MINH.jpg",
+  	loiChuc: ""
+  },
+  {
+  	ten: "Mế Hiền",
+  	goiTat: ["mế"],
+  	theme: "theme-1",
+  	thiep: "images/Mế Hiền.jpg",
+  	loiChuc: ""
+  },
+  {
   	ten: "Tạ Hải Bảo Lâm",
   	goiTat: ["bao lam"],
   	theme: "theme-1",
