@@ -245,6 +245,69 @@ const DANH_SACH_CO = [
   	loiChuc: ""
   },
   {
+  	ten: "Phạm Khôi Nguyên",
+  	goiTat: ["nguyên"],
+  	theme: "theme-2",
+  	thiep: "images/KHOI NGUYEN.jpg",
+  	loiChuc: ""
+  },
+  {
+  	ten: "Phùng Đức Minh",
+  	goiTat: ["phùng đức minh"],
+  	theme: "theme-2",
+  	thiep: "images/PHÙNG ĐỨC MINH.jpg",
+  	loiChuc: ""
+  },
+  {
+  	ten: "Nguyễn Vũ Gia An",
+  	goiTat: ["gia an"],
+  	theme: "theme-2",
+  	thiep: "images/GIA AN.png",
+  	loiChuc: ""
+  },
+  {
+  	ten: "Nguyễn Bích Hà",
+  	goiTat: ["hà"],
+  	theme: "theme-2",
+  	thiep: "images/BÍCH HÀ.png",
+  	loiChuc: ""
+  },
+  {
+  	ten: "Đỗ Phương Linh",
+  	goiTat: ["linh"],
+  	theme: "theme-2",
+  	thiep: "images/linh.jpg",
+  	loiChuc: ""
+  },
+  {
+  	ten: "Trương Gia Bình",
+  	goiTat: ["Bình"],
+  	theme: "theme-2",
+  	thiep: "images/binhdz.png",
+  	loiChuc: ""
+  },
+  {
+  	ten: "Nguyễn Ngọc Anh",
+  	goiTat: ["anh"],
+  	theme: "theme-2",
+  	thiep: "images/NGOC ANH.png",
+  	loiChuc: ""
+  },
+  {
+  	ten: "Lê Duy Trường",
+  	goiTat: ["trường"],
+  	theme: "theme-3",
+  	thiep: "images/lAZY TRƯỜNG.jfif",
+  	loiChuc: ""
+  },
+  {
+  	ten: "Lý Sơn Hà",
+  	goiTat: ["hà"],
+  	theme: "theme-3",
+  	thiep: "images/LÝ HÀ.jpg",
+  	loiChuc: ""
+  },
+  {
   	ten: "Mạc Nguyễn Trọng",
   	goiTat: ["trong"],
   	theme: "theme-1",
