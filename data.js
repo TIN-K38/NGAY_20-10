@@ -297,7 +297,7 @@ const DANH_SACH_CO = [
   	ten: "Lê Duy Trường",
   	goiTat: ["trường"],
   	theme: "theme-3",
-  	thiep: "images/lAZY TRƯỜNG.jfif",
+  	thiep: "images/LAZY TRƯỜNG.jfif",
   	loiChuc: ""
   },
   {
