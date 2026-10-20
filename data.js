@@ -171,7 +171,14 @@ const DANH_SACH_CO = [
     ten: "Trương Đức Lâm",
     goiTat: ["đức lâm", "thằng bệnh cầm khóa tủ điện thoại"],
     theme: "theme-1",
-    thiep: "images/bakhi.jfif",
+    thiep: "images/DUCLAM.jfif",
+    loiChuc: ""
+  },
+  {
+    ten: "Trần Đức Minh",
+    goiTat: ["trần đức minh", "đm"],
+    theme: "theme-1",
+    thiep: "images/TRẦN ĐỨC MINH.jpg",
     loiChuc: ""
   },
   {
