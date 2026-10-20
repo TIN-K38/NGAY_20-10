@@ -236,6 +236,13 @@ const DANH_SACH_CO = [
   	theme: "theme-1",
   	thiep: "images/Mế Hiền.jpg",
   	loiChuc: ""
+  },
+  {
+  	ten: "Mạc Nguyễn Trọng",
+  	goiTat: ["trong"],
+  	theme: "theme-1",
+  	thiep: "images/mactrong.jpg",
+  	loiChuc: ""
   }
 ]
 
