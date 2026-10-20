@@ -343,6 +343,13 @@ const DANH_SACH_CO = [
   	loiChuc: ""
   },
   {
+  	ten: "Nguyễn Quang Lê",
+  	goiTat: ["lê"],
+  	theme: "theme-1",
+  	thiep: "images/NGUYỄN QUANG LÊ.jpg",
+  	loiChuc: ""
+  },
+  {
   	ten: "Tung Tung Tung Sahur",
   	goiTat: ["TTT"],
   	theme: "theme-4",
