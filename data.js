@@ -329,6 +329,13 @@ const DANH_SACH_CO = [
   	loiChuc: ""
   },
   {
+  	ten: "Nguyễn Anh Minh 20/6",
+  	goiTat: ["anhminh20/6"],
+  	theme: "theme-1",
+  	thiep: "images/NGUYEN ANH MINH 206.jpg",
+  	loiChuc: ""
+  },
+  {
   	ten: "Tung Tung Tung Sahur",
   	goiTat: ["TTT"],
   	theme: "theme-4",
